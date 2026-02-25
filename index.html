@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Technical Documentation Page</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./src/logo_doqa.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>DoQA Technical Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Setup_and_Installation">Setup and Installation</a>
+      <a class="nav-link" href="#Core_Concepts">Core Concepts</a>
+      <a class="nav-link" href="#API_Reference">API Reference</a>
+      <a class="nav-link" href="#Troubleshooting_and_FAQ"
+        >Troubleshooting and FAQ</a
+      >
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>
+          This documentation provides a focused overview of the DoQA technical
+          documentation template and how to extend it.
+        </p>
+        <p>
+          Use this guide to understand the page structure, navigation, and the
+          code examples that appear throughout the sections.
+        </p>
+        <code>const project = "doqa-docs";</code>
+      </section>
+
+      <section class="main-section" id="Setup_and_Installation">
+        <header>Setup and Installation</header>
+        <p>
+          Start by cloning the repository and opening the project in your code
+          editor of choice.
+        </p>
+        <p>
+          The project is intentionally lightweight so it can run in any modern
+          browser without additional tooling.
+        </p>
+        <code>git clone https://example.com/doqa-docs.git</code>
+      </section>
+
+      <section class="main-section" id="Core_Concepts">
+        <header>Core Concepts</header>
+        <p>
+          The layout uses a fixed sidebar for navigation and a main content
+          area for documentation sections.
+        </p>
+        <p>
+          Each section contains a header, supporting text, and optional code
+          snippets for clarity.
+        </p>
+        <code>section.main-section > header { font-weight: 700; }</code>
+        <ul>
+          <li>Semantic HTML for accessibility</li>
+          <li>Consistent section IDs and links</li>
+          <li>Readable typography and spacing</li>
+          <li>Code snippets for examples</li>
+          <li>Responsive layout behavior</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="API_Reference">
+        <header>API Reference</header>
+        <p>
+          This section demonstrates how API entries can be documented with
+          concise explanations.
+        </p>
+        <p>
+          Use code blocks to show signatures, payloads, or sample responses.
+        </p>
+        <code>GET /api/v1/projects</code>
+      </section>
+
+      <section class="main-section" id="Troubleshooting_and_FAQ">
+        <header>Troubleshooting and FAQ</header>
+        <p>
+          If navigation links do not scroll correctly, verify that IDs match
+          the header text with underscores.
+        </p>
+        <p>
+          For layout issues, ensure the CSS file is linked and the media query
+          is applied at smaller widths.
+        </p>
+        <code>href="#Troubleshooting_and_FAQ"</code>
+      </section>
+    </main>
+  </body>
+</html>
